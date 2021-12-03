@@ -1,10 +1,12 @@
 package com.cc.java;
 
+import javax.swing.plaf.TreeUI;
+
 public class App {
     
     public static void main(String[] args) {
 
-        Cat cat1 = new Cat("Grizabella", "white", 29); // Klasse --> Objekt / Instanz
+        Cat cat1 = new Cat("Grizabella", "white", 29, true); // Klasse --> Objekt / Instanz
         
         output("Name: " + cat1.getStringAttributes("#name"));
         output("Fellfarbe: " + cat1.getStringAttributes("#color"));
@@ -13,9 +15,8 @@ public class App {
 
         output("------------------------");
 
-        Cat cat2 = new Cat("Alonzo", "black", 35); // Klasse --> Objekt / Instanz
+        Cat cat2 = new Cat("Alonzo", "black", 35, false); // Klasse --> Objekt / Instanz
 
-        
         output("Name: " + cat2.getStringAttributes("#name"));
         output("Fellfarbe: " + cat2.getStringAttributes("#color"));
         
