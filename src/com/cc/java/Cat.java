@@ -13,27 +13,17 @@ public class Cat {
     }
 
     public String getStringAttributes(String flag){
-<<<<<<< HEAD
-        switch (flag){
-=======
         switch (flag) {
->>>>>>> 6a56a243f0bc684a0c76246c368e875f9491446d
+
             case "#name":
                 return name;
             case "#color":
                 return furColor;
             default:
                 return "#!?";
-<<<<<<< HEAD
 
-        }
-    }
-
-  
-=======
         }  
     }
->>>>>>> 6a56a243f0bc684a0c76246c368e875f9491446d
 
     public int getAge() {
         return age;
